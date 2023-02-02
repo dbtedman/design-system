@@ -11,4 +11,11 @@ hero:
         - theme: "alt"
           text: "Source Code"
           link: "https://github.com/dbtedman/design-system"
+features:
+    - title: "Vue"
+      details: "(proposed support)"
+    - title: "React"
+      details: "(proposed support)"
+    - title: "Web Components"
+      details: "(proposed support)"
 ---

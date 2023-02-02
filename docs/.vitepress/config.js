@@ -3,6 +3,10 @@ export default {
     description: "Usage documentation for the Design System.",
     lastUpdated: true,
     themeConfig: {
+        footer: {
+            message: "Released under the MIT License.",
+            copyright: "Copyright © 2023 Daniel Tedman",
+        },
         editLink: {
             pattern:
                 "https://github.com/dbtedman/design-system/tree/main/docs/:path",
