@@ -1,0 +1,15 @@
+# Don't include IDE configuraiton
+/.idea/
+
+# Don't include external dependencies and caches
+/.cache/
+/node_modules/
+/package/**/node_modules/
+/docs/**/node_modules/
+/docs/.vitepress/cache/
+
+# Don't include build output
+/package/**/dist/
+
+# Keep this file even if directory has been ignored
+!.keep
