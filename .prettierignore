@@ -6,6 +6,6 @@
 # Don't touch IDE configuraiton
 /.idea/
 
-# Don't touch build output
-/package/**/dist/
-/docs/.vitepress/cache/
+# Don't touch packages or docs, these will define their own linting
+/package/
+/docs/

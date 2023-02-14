@@ -11,7 +11,7 @@
 ## Getting Started
 
 ```shell
-nvm use && make
+nvm use && make dev
 ```
 
 ## Verification
@@ -26,12 +26,6 @@ These rules can then be automatically applied:
 
 ```shell
 make format
-```
-
-## Documentation
-
-```shell
-make docs
 ```
 
 ## Design

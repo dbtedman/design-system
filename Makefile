@@ -18,9 +18,9 @@ lint:
 format:
 	@pnpm run format
 
-.PHONY: docs
-docs:
-	@pnpm recursive run docs:dev
+.PHONY: dev
+dev:
+	@pnpm recursive run dev
 
 .PHONY: upgrade
 upgrade:
