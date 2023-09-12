@@ -1,4 +1,4 @@
-# Design System
+# [Design System](https://github.com/dbtedman/design-system)
 
 A fictional design system based around Web Components.
 
@@ -7,10 +7,11 @@ A fictional design system based around Web Components.
 
 ## Packages
 
+-   [design-system-react-demo](./package/design-system-react-demo)
 -   [design-system-react](./package/design-system-react)
 -   [design-system-stencil](./package/design-system-stencil)
--   [design-system-vue](./package/design-system-vue)
 -   [design-system-vue-demo](./package/design-system-vue-demo)
+-   [design-system-vue](./package/design-system-vue)
 
 ## License
 
