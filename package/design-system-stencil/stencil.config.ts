@@ -19,7 +19,7 @@ export const config: Config = {
       serviceWorker: null, // disable service workers
     },
     vueOutputTarget({
-      componentCorePackage: 'stencil-library',
+      componentCorePackage: 'design-system-stencil',
       proxiesFile: '../design-system-vue/lib/components.ts',
     }),
   ],
