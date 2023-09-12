@@ -10,12 +10,13 @@ A fictional design system based around Web Components.
 ## Build
 
 ```shell
-pnpm install
-pnpm recursive run build
+make install build
 ```
 
+Then view our two demo apps:
+
 ```shell
-pnpm recursive run dev
+make dev
 ```
 
 ## Packages

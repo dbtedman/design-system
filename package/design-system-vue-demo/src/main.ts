@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import { ComponentLibrary } from 'design-system-vue';
+import { ComponentLibrary } from 'design-system-vue'
 
 import App from './App.vue'
 import router from './router'

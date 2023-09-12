@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { DsSearch } from 'design-system-vue';
+import { DsSearch } from 'design-system-vue'
 </script>
 
 <template>
   <main>
-      <ds-search />
+    <ds-search />
   </main>
 </template>
