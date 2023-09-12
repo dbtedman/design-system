@@ -1,5 +1,6 @@
 import { Config } from '@stencil/core';
 import { vueOutputTarget } from '@stencil/vue-output-target';
+import { reactOutputTarget } from '@stencil/react-output-target';
 
 export const config: Config = {
   namespace: 'design-system-stencil',
@@ -21,6 +22,10 @@ export const config: Config = {
     vueOutputTarget({
       componentCorePackage: 'design-system-stencil',
       proxiesFile: '../design-system-vue/lib/components.ts',
+    }),
+    reactOutputTarget({
+      componentCorePackage: 'design-system-stencil',
+      proxiesFile: '../design-system-react/lib/components/stencil-generated/index.ts',
     }),
   ],
   testing: {

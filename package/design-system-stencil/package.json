@@ -29,6 +29,7 @@
     "@stencil/core": "4.2.1"
   },
   "devDependencies": {
+    "@stencil/react-output-target": "0.5.3",
     "@stencil/vue-output-target": "0.8.6",
     "@types/jest": "27.5.2",
     "@types/node": "18.17.1",
