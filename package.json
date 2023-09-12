@@ -1,4 +1,12 @@
 {
   "name": "design-system",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "scripts": {
+    "format": "sort-package-json && prettier . --write",
+    "lint": "sort-package-json --check && prettier . --check"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3",
+    "sort-package-json": "2.5.1"
+  }
 }
