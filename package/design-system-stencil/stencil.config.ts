@@ -1,9 +1,13 @@
 import { Config } from '@stencil/core';
 import { vueOutputTarget } from '@stencil/vue-output-target';
 import { reactOutputTarget } from '@stencil/react-output-target';
+import { sass } from '@stencil/sass';
 
 export const config: Config = {
   namespace: 'design-system-stencil',
+  plugins: [
+    sass()
+  ],
   outputTargets: [
     {
       type: 'dist',
