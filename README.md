@@ -7,11 +7,19 @@ A fictional design system based around Web Components.
 
 ## Packages
 
--   [design-system-react-demo](./package/design-system-react-demo)
--   [design-system-react](./package/design-system-react)
--   [design-system-stencil](./package/design-system-stencil)
--   [design-system-vue-demo](./package/design-system-vue-demo)
--   [design-system-vue](./package/design-system-vue)
+### Web Components
+
+-   [design-system-stencil](./package/design-system-stencil) defines Web Components that are then depended upon by framework specific packages.
+
+### React
+
+-   [design-system-react](./package/design-system-react) defines a wrapper around [design-system-stencil](./package/design-system-stencil) to enable the use of our components in a React application.
+-   [design-system-react-demo](./package/design-system-react-demo) is a demonstration application that uses components from [design-system-react](./package/design-system-react).
+
+### Vue
+
+-   [design-system-vue](./package/design-system-vue) defines a wrapper around [design-system-stencil](./package/design-system-stencil) to enable the use of our components in a Vue application.
+-   [design-system-vue-demo](./package/design-system-vue-demo) is a demonstration application that uses components from [design-system-vue](./package/design-system-vue).
 
 ## License
 
