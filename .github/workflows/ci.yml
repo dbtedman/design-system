@@ -12,7 +12,7 @@ on:
 permissions: "read-all"
 
 jobs:
-    linux:
+    run:
         runs-on: "ubuntu-latest"
 
         steps:
