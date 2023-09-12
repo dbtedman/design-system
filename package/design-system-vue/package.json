@@ -1,0 +1,23 @@
+{
+  "name": "design-system-vue",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "npm run tsc",
+    "tsc": "tsc -p . --outDir ./dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "design-system-stencil": "workspace:*"
+  },
+  "devDependencies": {
+    "vue": "3"
+  }
+}
