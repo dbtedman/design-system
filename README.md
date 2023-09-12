@@ -5,20 +5,39 @@
 A fictional design system based around Web Components.
 
 -   [Build](#build)
+-   [Lint and Format](#lint-and-format)
+-   [Test](#test)
 -   [Packages](#packages)
 -   [Components](#components)
+-   [References](#references)
 -   [License](#license)
 
 ## Build
 
 ```shell
-make install build
+nvm use && make install build
 ```
 
 Then view our two demo apps:
 
 ```shell
-make dev
+nvm use && make dev
+```
+
+## Lint and Format
+
+```shell
+nvm use && make lint
+```
+
+```shell
+nvm use && make format
+```
+
+## Test
+
+```shell
+nvm use && make test
 ```
 
 ## Packages
@@ -62,6 +81,10 @@ _Placeholder_
 ### Pages
 
 _Placeholder_
+
+## References
+
+-   [Stencil Docs (stenciljs.com)](https://stenciljs.com/docs/introduction)
 
 ## License
 
