@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import TheWelcome from '../components/TheWelcome.vue'
+import { MyComponent } from 'design-system-vue';
 </script>
 
 <template>
   <main>
-      <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+      <MyComponent first="Vue" last="Demo"></MyComponent>
     <TheWelcome />
   </main>
 </template>

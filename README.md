@@ -2,9 +2,21 @@
 
 A fictional design system based around Web Components.
 
+-   [Build](#build)
 -   [Packages](#packages)
 -   [Components](#components)
 -   [License](#license)
+
+## Build
+
+```shell
+pnpm install
+pnpm recursive run build
+```
+
+```shell
+pnpm recursive run dev
+```
 
 ## Packages
 

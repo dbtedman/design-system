@@ -2,9 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { MyComponent, defineCustomElements } from 'design-system-react';
-
-defineCustomElements();
+import { MyComponent } from 'design-system-react';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-          <MyComponent first="Your" last="Name" />
+          <MyComponent first="Vue" last="App" />
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
