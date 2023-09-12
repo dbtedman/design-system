@@ -84,6 +84,10 @@ _Placeholder_
 
 ## References
 
+Resources referenced during the development of this project.
+
+-   [Atomic Design Methodology (atomicdesign.bradfrost.com)](https://atomicdesign.bradfrost.com/chapter-2/)
+-   [PNPM Workspace (pnpm.io)](https://pnpm.io/workspaces)
 -   [Stencil Docs (stenciljs.com)](https://stenciljs.com/docs/introduction)
 
 ## License
