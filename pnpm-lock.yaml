@@ -11,18 +11,18 @@ importers:
   package/design-system-stencil:
     dependencies:
       '@stencil/core':
-        specifier: ^4.0.0
-        version: 4.0.0
+        specifier: ^4.2.1
+        version: 4.2.1
     devDependencies:
       '@stencil/vue-output-target':
         specifier: 0.8.6
-        version: 0.8.6(@stencil/core@4.0.0)
+        version: 0.8.6(@stencil/core@4.2.1)
       '@types/jest':
         specifier: ^27.5.2
         version: 27.5.2
       '@types/node':
-        specifier: ^16.18.11
-        version: 16.18.11
+        specifier: ^16.18.50
+        version: 16.18.50
       jest:
         specifier: ^27.5.1
         version: 27.5.1
@@ -30,8 +30,8 @@ importers:
         specifier: ^27.5.1
         version: 27.5.1
       puppeteer:
-        specifier: ^21.0.3
-        version: 21.0.3
+        specifier: ^21.1.1
+        version: 21.1.1
 
   package/design-system-vue:
     dependencies:
@@ -40,7 +40,7 @@ importers:
         version: link:../design-system-stencil
     devDependencies:
       vue:
-        specifier: '3'
+        specifier: ^3.3.4
         version: 3.3.4
 
 packages:
@@ -393,7 +393,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       chalk: 4.1.2
       jest-message-util: 27.5.1
       jest-util: 27.5.1
@@ -414,7 +414,7 @@ packages:
       '@jest/test-result': 27.5.1
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       emittery: 0.8.1
@@ -451,7 +451,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       jest-mock: 27.5.1
     dev: true
 
@@ -461,7 +461,7 @@ packages:
     dependencies:
       '@jest/types': 27.5.1
       '@sinonjs/fake-timers': 8.1.0
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       jest-message-util: 27.5.1
       jest-mock: 27.5.1
       jest-util: 27.5.1
@@ -490,7 +490,7 @@ packages:
       '@jest/test-result': 27.5.1
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
       exit: 0.1.2
@@ -574,7 +574,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       '@types/yargs': 16.0.5
       chalk: 4.1.2
     dev: true
@@ -609,8 +609,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@puppeteer/browsers@1.6.0:
-    resolution: {integrity: sha512-R2ib8j329427jtKB/qlz0MJbwfJE/6I8ocJLiajsRqJ2PPI8DbjiNzC3lQZeISXEcjOBVhbG2RafN8SlHdcT+A==}
+  /@puppeteer/browsers@1.7.0:
+    resolution: {integrity: sha512-sl7zI0IkbQGak/+IE3VEEZab5SSOlI5F6558WvzWGC1n3+C722rfewC1ZIkcF9dsoGSsxhsONoseVlNQG4wWvQ==}
     engines: {node: '>=16.3.0'}
     hasBin: true
     dependencies:
@@ -637,17 +637,17 @@ packages:
       '@sinonjs/commons': 1.8.6
     dev: true
 
-  /@stencil/core@4.0.0:
-    resolution: {integrity: sha512-BR1MBv2315qKJ7aukIZ5i9cYYyMWktS7WNAsCl5Q9ZQRtUiNhw4LZd0xuvyZDXy+eQ4O/W3Qs4FHTCBNhYjarQ==}
+  /@stencil/core@4.2.1:
+    resolution: {integrity: sha512-alYwqVwxfD0n6HKRVJqJoTzQNnf44n/sddvjNu3JMEn3sfY/Ag7rpmwUntYjtJmRut+or+9gPPgIJviCuKi4yQ==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
-  /@stencil/vue-output-target@0.8.6(@stencil/core@4.0.0):
+  /@stencil/vue-output-target@0.8.6(@stencil/core@4.2.1):
     resolution: {integrity: sha512-B1gQW8FWeU7x/KBPm9R28jYFGN5NsZTZR4jwfDMhKBmU1Q2dIxFY52ARhbrfj5tJQxKoxr2tQJD2S14r9t1v7w==}
     peerDependencies:
       '@stencil/core': '>=2.0.0 || >=3 || >= 4.0.0-beta.0 || >= 4.0.0'
     dependencies:
-      '@stencil/core': 4.0.0
+      '@stencil/core': 4.2.1
     dev: true
 
   /@tootallnate/once@1.1.2:
@@ -691,7 +691,7 @@ packages:
   /@types/graceful-fs@4.1.6:
     resolution: {integrity: sha512-Sig0SNORX9fdW+bQuTEovKj3uHcUL6LQKbCrrqb1X7J6/ReAbhCXRAhc+SMejhLELFj2QcyuxmUooZ4bt5ReSw==}
     dependencies:
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
     dev: true
 
   /@types/istanbul-lib-coverage@2.0.4:
@@ -717,8 +717,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@types/node@16.18.11:
-    resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
+  /@types/node@16.18.50:
+    resolution: {integrity: sha512-OiDU5xRgYTJ203v4cprTs0RwOCd5c5Zjv+K5P8KSqfiCsB1W3LcamTUMcnQarpq5kOYbhHfSOgIEJvdPyb5xyw==}
     dev: true
 
   /@types/prettier@2.7.3:
@@ -743,7 +743,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
     dev: true
     optional: true
 
@@ -1117,12 +1117,12 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromium-bidi@0.4.20(devtools-protocol@0.0.1147663):
-    resolution: {integrity: sha512-ruHgVZFEv00mAQMz1tQjfjdG63jiPWrQPF6HLlX2ucqLqVTJoWngeBEKHaJ6n1swV/HSvgnBNbtTRIlcVyW3Fw==}
+  /chromium-bidi@0.4.22(devtools-protocol@0.0.1159816):
+    resolution: {integrity: sha512-wR7Y9Ioez+cNXT4ZP7VNM1HRTljpNnMSLw4/RnwhhZUP4yCU7kIQND00YiktuHekch68jklGPK1q9Jkb29+fQg==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
-      devtools-protocol: 0.0.1147663
+      devtools-protocol: 0.0.1159816
       mitt: 3.0.1
     dev: true
 
@@ -1301,8 +1301,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /devtools-protocol@0.0.1147663:
-    resolution: {integrity: sha512-hyWmRrexdhbZ1tcJUGpO95ivbRhWXz++F4Ko+n21AY5PNln2ovoJw+8ZMNDTtip+CNFQfrtLVh/w4009dXO/eQ==}
+  /devtools-protocol@0.0.1159816:
+    resolution: {integrity: sha512-2cZlHxC5IlgkIWe2pSDmCrDiTzbSJWywjbDDnupOImEBcG31CQgBLV8wWE+5t+C4rimcjHsbzy7CBzf9oFjboA==}
     dev: true
 
   /diff-sequences@27.5.1:
@@ -1791,7 +1791,7 @@ packages:
       '@jest/environment': 27.5.1
       '@jest/test-result': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       chalk: 4.1.2
       co: 4.6.0
       dedent: 0.7.0
@@ -1916,7 +1916,7 @@ packages:
       '@jest/environment': 27.5.1
       '@jest/fake-timers': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       jest-mock: 27.5.1
       jest-util: 27.5.1
       jsdom: 16.7.0
@@ -1934,7 +1934,7 @@ packages:
       '@jest/environment': 27.5.1
       '@jest/fake-timers': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       jest-mock: 27.5.1
       jest-util: 27.5.1
     dev: true
@@ -1950,7 +1950,7 @@ packages:
     dependencies:
       '@jest/types': 27.5.1
       '@types/graceful-fs': 4.1.6
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -1972,7 +1972,7 @@ packages:
       '@jest/source-map': 27.5.1
       '@jest/test-result': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       chalk: 4.1.2
       co: 4.6.0
       expect: 27.5.1
@@ -2027,7 +2027,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
     dev: true
 
   /jest-pnp-resolver@1.2.3(jest-resolve@27.5.1):
@@ -2083,7 +2083,7 @@ packages:
       '@jest/test-result': 27.5.1
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       chalk: 4.1.2
       emittery: 0.8.1
       graceful-fs: 4.2.11
@@ -2140,7 +2140,7 @@ packages:
     resolution: {integrity: sha512-jZCyo6iIxO1aqUxpuBlwTDMkzOAJS4a3eYz3YzgxxVQFwLeSA7Jfq5cbqCY+JLvTDrWirgusI/0KwxKMgrdf7w==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       graceful-fs: 4.2.11
     dev: true
 
@@ -2179,7 +2179,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
@@ -2204,7 +2204,7 @@ packages:
     dependencies:
       '@jest/test-result': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       jest-util: 27.5.1
@@ -2215,7 +2215,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.18.11
+      '@types/node': 16.18.50
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -2679,15 +2679,15 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@21.0.3:
-    resolution: {integrity: sha512-AGvopfkA0jLbW5Ba0m6kBuvRIpLo76PXUK3zJYkXOr9NI1LknJESyai6TtXc6GUSewMkinmyEDx1pFgq900hqg==}
+  /puppeteer-core@21.1.1:
+    resolution: {integrity: sha512-Tlcajcf44zwfa9Sbwv3T8BtaNMJ69wtpHIxwl2NOBTyTK3D1wppQovXTjfw0TDOm3a16eCfQ+5BMi3vRQ4kuAQ==}
     engines: {node: '>=16.3.0'}
     dependencies:
-      '@puppeteer/browsers': 1.6.0
-      chromium-bidi: 0.4.20(devtools-protocol@0.0.1147663)
+      '@puppeteer/browsers': 1.7.0
+      chromium-bidi: 0.4.22(devtools-protocol@0.0.1159816)
       cross-fetch: 4.0.0
       debug: 4.3.4
-      devtools-protocol: 0.0.1147663
+      devtools-protocol: 0.0.1159816
       ws: 8.13.0
     transitivePeerDependencies:
       - bufferutil
@@ -2696,14 +2696,14 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer@21.0.3:
-    resolution: {integrity: sha512-+eBNTEOOBrRBLJ1/jIuHcOoUUOVpUQjQFwp9L/sm/iBDqii+4jv9jxpPJSOmOHXuy++X7GWfhuDw4vz8crNzPw==}
+  /puppeteer@21.1.1:
+    resolution: {integrity: sha512-2TLntjGA4qLrI9/8N0UK/5OoZJ2Ue7QgphN2SD+RsaHiha12AEiVyMGsB+i6LY1IoPAtEgYIjblQ7lw3kWDNRw==}
     engines: {node: '>=16.3.0'}
     requiresBuild: true
     dependencies:
-      '@puppeteer/browsers': 1.6.0
+      '@puppeteer/browsers': 1.7.0
       cosmiconfig: 8.2.0
-      puppeteer-core: 21.0.3
+      puppeteer-core: 21.1.1
     transitivePeerDependencies:
       - bufferutil
       - encoding

@@ -18,6 +18,6 @@
     "design-system-stencil": "workspace:*"
   },
   "devDependencies": {
-    "vue": "3"
+    "vue": "^3.3.4"
   }
 }
