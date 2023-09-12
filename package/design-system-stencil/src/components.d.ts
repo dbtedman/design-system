@@ -6,56 +6,71 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+    interface DsButton {
+    }
+    interface DsInput {
+    }
+    interface DsLabel {
+    }
+    interface DsSearch {
     }
 }
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLDsButtonElement extends Components.DsButton, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLDsButtonElement: {
+        prototype: HTMLDsButtonElement;
+        new (): HTMLDsButtonElement;
+    };
+    interface HTMLDsInputElement extends Components.DsInput, HTMLStencilElement {
+    }
+    var HTMLDsInputElement: {
+        prototype: HTMLDsInputElement;
+        new (): HTMLDsInputElement;
+    };
+    interface HTMLDsLabelElement extends Components.DsLabel, HTMLStencilElement {
+    }
+    var HTMLDsLabelElement: {
+        prototype: HTMLDsLabelElement;
+        new (): HTMLDsLabelElement;
+    };
+    interface HTMLDsSearchElement extends Components.DsSearch, HTMLStencilElement {
+    }
+    var HTMLDsSearchElement: {
+        prototype: HTMLDsSearchElement;
+        new (): HTMLDsSearchElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
+        "ds-button": HTMLDsButtonElement;
+        "ds-input": HTMLDsInputElement;
+        "ds-label": HTMLDsLabelElement;
+        "ds-search": HTMLDsSearchElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+    interface DsButton {
+    }
+    interface DsInput {
+    }
+    interface DsLabel {
+    }
+    interface DsSearch {
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
+        "ds-button": DsButton;
+        "ds-input": DsInput;
+        "ds-label": DsLabel;
+        "ds-search": DsSearch;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "ds-button": LocalJSX.DsButton & JSXBase.HTMLAttributes<HTMLDsButtonElement>;
+            "ds-input": LocalJSX.DsInput & JSXBase.HTMLAttributes<HTMLDsInputElement>;
+            "ds-label": LocalJSX.DsLabel & JSXBase.HTMLAttributes<HTMLDsLabelElement>;
+            "ds-search": LocalJSX.DsSearch & JSXBase.HTMLAttributes<HTMLDsSearchElement>;
         }
     }
 }
