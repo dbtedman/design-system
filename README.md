@@ -40,11 +40,13 @@ Organised according to [Atomic Design](https://atomicdesign.bradfrost.com/chapte
 
 ### Atoms
 
-_Placeholder_
+-   `<ds-input>`
+-   `<ds-label>`
+-   `<ds-button>`
 
 ### Molecules
 
-_Placeholder_
+-   `<ds-search>`
 
 ### Organisms
 
