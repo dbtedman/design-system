@@ -10,6 +10,7 @@ A fictional design system based around Web Components.
 -   [design-system-react](./package/design-system-react)
 -   [design-system-stencil](./package/design-system-stencil)
 -   [design-system-vue](./package/design-system-vue)
+-   [design-system-vue-demo](./package/design-system-vue-demo)
 
 ## License
 
