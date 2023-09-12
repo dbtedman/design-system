@@ -3,6 +3,7 @@
 A fictional design system based around Web Components.
 
 -   [Packages](#packages)
+-   [Components](#components)
 -   [License](#license)
 
 ## Packages
@@ -20,6 +21,30 @@ A fictional design system based around Web Components.
 
 -   [design-system-vue](./package/design-system-vue) defines a wrapper around [design-system-stencil](./package/design-system-stencil) to enable the use of our components in a Vue application.
 -   [design-system-vue-demo](./package/design-system-vue-demo) is a demonstration application that uses components from [design-system-vue](./package/design-system-vue).
+
+## Components
+
+Organised according to [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/) principles.
+
+### Atoms
+
+_Placeholder_
+
+### Molecules
+
+_Placeholder_
+
+### Organisms
+
+_Placeholder_
+
+### Templates
+
+_Placeholder_
+
+### Pages
+
+_Placeholder_
 
 ## License
 
